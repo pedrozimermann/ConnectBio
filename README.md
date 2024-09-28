@@ -11,9 +11,9 @@ Uma ferramenta que permite adicionar links personalizados à sua bio, conectando
 
 <h3>Funcionalidades:</h3>
 <ul>
-  <li>Adicione links ilimitados</li>
-  <li>Personalizável</li>
-  <li>Integração com redes sociais</li>
+  <li>Adicione links ilimitados.</li>
+  <li>Personalizável.</li>
+  <li>Integração com redes sociais.</li>
 </ul>
 
 
