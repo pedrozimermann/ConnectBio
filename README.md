@@ -1,4 +1,4 @@
-Link na Bio
+<strong>ConnectBio</strong>
 
 <img src="imagem.png" alt="Exemplo imagem">
 
