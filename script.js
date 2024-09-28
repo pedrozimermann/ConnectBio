@@ -1,20 +1,20 @@
 function toggleMode() {
   const html = document.documentElement
-  html.classList.toggle("light")
-
   const img = document.querySelector("img")
 
   if (html.classList.contains("light")) {
-    img.setAttribute("src", "./assets/avatar-light.jpg")
-    img.setAttribute("alt", "Avatar Light")
+    // Remover a classe 'light' com animação
+    requestAnimationFrame(() => {
+      html.classList.remove("light")
+      img.setAttribute("src", "./assets/avatar.jpg")
+      img.setAttribute("alt", "Avatar")
+    })
   } else {
-    img.setAttribute("src", "./assets/avatar.jpg")
-    img.setAttribute("alt", "Avatar")
+    // Adicionar a classe 'light' com animação
+    requestAnimationFrame(() => {
+      html.classList.add("light")
+      img.setAttribute("src", "./assets/avatar-light.jpg")
+      img.setAttribute("alt", "Avatar Light")
+    })
   }
-
-  //pegar a tag img
-
-  //substituir o src da imagem
-  //se tiver light mode, adicionar a imagem light
-  //se não tiver light mode, adicionar a imagem normal
 }
