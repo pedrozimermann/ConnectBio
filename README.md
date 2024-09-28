@@ -9,5 +9,12 @@ Uma ferramenta que permite adicionar links personalizados à sua bio, conectando
 <img src="example-img-darkmode.png" alt="Imagem de Exmplo no Dark Mode.">
 
 
+<h3>Funcionalidades:</h3>
+<ul>
+  <li>Adicione links ilimitados</li>
+  <li>Personalizável</li>
+  <li>Integração com redes sociais</li>
+</ul>
+
 
 
